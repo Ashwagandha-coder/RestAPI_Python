@@ -21,20 +21,25 @@ class Main(Resource):
             return courses
 
     def delete(self, cources_id):
+
         del courses[cources_id]
         return courses
 
     def post(self, couces_id):
+
         parser = reqparse.RequestParser()
         parser.add_argument("name", type=str)
         parser.add_argument("videos", type=int)
         courses[couces_id] = parser.parse_args()
+        return courses
 
     def put(self, cources_id):
+
         parser = reqparse.RequestParser()
         parser.add_argument("name", type=str)
         parser.add_argument("videos", type=int)
         courses[cources_id] = parser.parse_args()
+        return courses
 
 
 
@@ -43,3 +48,9 @@ api.init_app(app)
 
 if __name__ == "__main__":
     app.run(debug=True, port=3000, host="127.0.0.1")
+
+'''
+
+Бекенд
+
+'''
