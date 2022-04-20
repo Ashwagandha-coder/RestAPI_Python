@@ -8,7 +8,8 @@
 
 Клиент серверное взаимодествие
 
-![](../../Desktop/can-server-and-client-both-use-a-certificate-with-the-same-cn.png)
+![can-server-and-client-both-use-a-certificate-with-the-same-cn](https://user-images.githubusercontent.com/58209188/164294495-1a60ab19-214f-4154-8770-1e94376ff8d8.png)
+
 
     Frontend - Backend
 
@@ -16,9 +17,10 @@
 
 - Получение и обработка JSON обьектов(хеш - таблиц)
 
-![](../../Desktop/Json object.png)
+![Json object](https://user-images.githubusercontent.com/58209188/164294523-e8231f71-f27f-40e9-9abc-857d8a38f580.png)
+
 
 - Использование фреймворка Flask
 
 
-![](../../Desktop/Flask.png)
+![Flask](https://user-images.githubusercontent.com/58209188/164294544-12709c38-666b-4b1e-8785-9b48098f5858.png)
